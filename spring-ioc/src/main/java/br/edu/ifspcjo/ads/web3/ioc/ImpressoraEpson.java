@@ -3,11 +3,11 @@ package br.edu.ifspcjo.ads.web3.ioc;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ImpressoraHP implements Impressora {
-	
+public class ImpressoraEpson implements Impressora {
+
 	@Override
 	public void imprimir(String documento) {
-		System.out.println("Imprimindo na HP: " + documento);
+		System.out.println("Imprimindo na Epson: " + documento);
 	}
 
 }

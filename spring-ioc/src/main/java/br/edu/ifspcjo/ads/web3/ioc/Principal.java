@@ -4,6 +4,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import br.edu.ifspcjo.ads.web3.ioc.config.AppConfig;
+
 public class Principal {
 	
 	public static void main(String[] args) {
